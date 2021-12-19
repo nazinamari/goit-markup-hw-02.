@@ -9,6 +9,7 @@
 
 body {
   font: "roboto", sans-serif;
+  color: #212121;
 }
 
 .list {
@@ -110,13 +111,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--second-title-color);
-  background-color: #F5F4FA;
-}
-
-.hero-btn:active {
   color:var(--main-title-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* ------------ABOUT------------- */
@@ -231,3 +228,43 @@ body {
   letter-spacing: 0.03em;
   color: var(--footer-adress)
 }
+
+/* ------------PORTFOLIO------------- */
+.portfolio-btn {
+}
+
+.portfolio-btn-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color)
+}
+
+.portfolio-btn-item {
+  cursor: pointer;
+}
+
+.portfolio-btn-item:hover, 
+.portfolio-btn-item:focus
+{
+  color:var(--main-title-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color)
+}
+
+.portfolio-item-text {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color)
+}
+
