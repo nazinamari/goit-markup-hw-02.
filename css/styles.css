@@ -110,7 +110,13 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--main-title-color);
+  color: var(--second-title-color);
+  background-color: #F5F4FA;
+}
+
+.hero-btn:active {
+  color:var(--main-title-color);
+  background-color: var(--accent-color);
 }
 
 /* ------------ABOUT------------- */
