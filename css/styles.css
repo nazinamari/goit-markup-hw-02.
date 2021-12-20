@@ -8,7 +8,7 @@
 }
 
 body {
-  font: "roboto", sans-serif;
+  font-family: "roboto", sans-serif;
   color: #212121;
 }
 
@@ -116,9 +116,9 @@ body {
   cursor: pointer;
 }
 
-/* ------------ABOUT------------- */
+/* ------------FEATURES------------- */
 
-.about {
+.features {
   background-color: var(--main-title-color)
 }
 
@@ -135,7 +135,7 @@ body {
   margin: -1px;
 }
 
-.about-list {
+.features-list {
   position: absolute;
   width: 270px;
   height: 101px;
@@ -143,24 +143,24 @@ body {
   top: 774px;
 }
 
-.about-item-title {
+.features .item-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 9.5;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-color)
 }
 
-.about-item-text {
+.features .item-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--first-text-color)
 }
 
-/* ------------JOB------------- */
-.job {
+/* ------------OUR WORK------------- */
+.work {
   background-color: var(--main-title-color)
 }
 
@@ -170,7 +170,7 @@ body {
   background-color: #F5F4FA;
 }
 
-.team-item-name {
+.team .item-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -179,7 +179,7 @@ body {
   color: var(--second-title-color);
 }
 
-.team-item-occupation {
+.team .item-occupation {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -216,6 +216,7 @@ body {
 }
 
 .footer-contact {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
@@ -223,6 +224,7 @@ body {
 }
 
 .footer-mail, .footer-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -234,6 +236,7 @@ body {
 }
 
 .portfolio-btn-item {
+  font-family: "roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
