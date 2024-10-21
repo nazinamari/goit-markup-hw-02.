@@ -1,1 +1,1 @@
-# goit-markup-hw-02.
+# Web Studio (Home work 2)
